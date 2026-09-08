@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Donate Clothes - ClothCare</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                ClothCare
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#how-it-works">
+                        How It Works
+                    </a>
+                </li>
+
+                <li>
+                    <a href="donate.html">Donate</a>
+                </li>
+
+                <li>
+                    <a href="login.html">Login</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Donation Section -->
+
+    <section class="donation-section">
+
+        <div class="donation-container">
+
+            <div class="donation-heading">
+
+                <p class="section-label">
+                    MAKE A DIFFERENCE
+                </p>
+
+                <h1>
+                    Donate Your <span>Clothes</span>
+                </h1>
+
+                <p>
+                    Fill out the form below to donate your
+                    unused clothes to someone in need.
+                </p>
+
+            </div>
+
+
+            <!-- Donation Form -->
+
+            <form class="donation-form">
+
+
+                <!-- Donor Information -->
+
+                <h2>Donor Information</h2>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Enter your phone number"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                    >
+
+                </div>
+
+
+                <!-- Clothing Information -->
+
+                <h2>Clothing Information</h2>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="clothing-type">
+                            Clothing Type
+                        </label>
+
+                        <select id="clothing-type">
+
+                            <option value="">
+                                Select clothing type
+                            </option>
+
+                            <option>
+                                Shirts
+                            </option>
+
+                            <option>
+                                Pants
+                            </option>
+
+                            <option>
+                                Dresses
+                            </option>
+
+                            <option>
+                                Jackets
+                            </option>
+
+                            <option>
+                                Sweaters
+                            </option>
+
+                            <option>
+                                Children's Clothes
+                            </option>
+
+                            <option>
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="quantity">
+                            Quantity
+                        </label>
+
+                        <input
+                            type="number"
+                            id="quantity"
+                            min="1"
+                            placeholder="Number of clothes"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="condition">
+                        Clothing Condition
+                    </label>
+
+                    <select id="condition">
+
+                        <option value="">
+                            Select condition
+                        </option>
+
+                        <option>
+                            New
+                        </option>
+
+                        <option>
+                            Like New
+                        </option>
+
+                        <option>
+                            Good
+                        </option>
+
+                        <option>
+                            Used
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="description">
+                        Description
+                    </label>
+
+                    <textarea
+                        id="description"
+                        rows="5"
+                        placeholder="Tell us about the clothes..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Donation Method -->
+
+                <h2>Donation Method</h2>
+
+
+                <div class="donation-method">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="method"
+                            value="pickup"
+                        >
+                        🚚 Pickup
+                    </label>
+
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="method"
+                            value="dropoff"
+                        >
+                        📍 Drop-off
+                    </label>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Address
+                    </label>
+
+                    <textarea
+                        id="address"
+                        rows="4"
+                        placeholder="Enter pickup/drop-off address"
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Submit -->
+
+                <button
+                    type="submit"
+                    class="donate-submit"
+                >
+                    Submit Donation
+                </button>
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 ClothCare. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

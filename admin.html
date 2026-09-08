@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard - ClothCare</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Admin Header -->
+
+    <header class="admin-header">
+
+        <div class="admin-logo">
+            ClothCare
+            <span>Admin</span>
+        </div>
+
+        <a href="index.html" class="admin-home">
+            View Website
+        </a>
+
+    </header>
+
+
+    <!-- Dashboard -->
+
+    <main class="admin-dashboard">
+
+        <div class="admin-heading">
+
+            <div>
+                <p class="section-label">
+                    ADMIN PANEL
+                </p>
+
+                <h1>
+                    Dashboard
+                </h1>
+            </div>
+
+            <button class="logout-btn">
+                Logout
+            </button>
+
+        </div>
+
+
+        <!-- Statistics -->
+
+        <div class="admin-stats">
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon">
+                    👕
+                </div>
+
+                <div>
+                    <p>Total Donations</p>
+                    <h2>128</h2>
+                </div>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon pending-icon">
+                    ⏳
+                </div>
+
+                <div>
+                    <p>Pending</p>
+                    <h2>24</h2>
+                </div>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon approved-icon">
+                    ✅
+                </div>
+
+                <div>
+                    <p>Approved</p>
+                    <h2>36</h2>
+                </div>
+
+            </div>
+
+
+            <div class="admin-stat-card">
+
+                <div class="admin-stat-icon completed-icon">
+                    ❤️
+                </div>
+
+                <div>
+                    <p>Completed</p>
+                    <h2>68</h2>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Donations Table -->
+
+        <section class="admin-donations">
+
+            <div class="table-heading">
+
+                <h2>Recent Donations</h2>
+
+                <button class="filter-btn">
+                    Filter
+                </button>
+
+            </div>
+
+
+            <div class="table-wrapper">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Donation ID</th>
+
+                            <th>Donor</th>
+
+                            <th>Clothes</th>
+
+                            <th>Quantity</th>
+
+                            <th>Date</th>
+
+                            <th>Status</th>
+
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>#CC1001</td>
+
+                            <td>Rahul Sharma</td>
+
+                            <td>Shirts</td>
+
+                            <td>5</td>
+
+                            <td>05 Sep 2026</td>
+
+                            <td>
+                                <span class="table-status completed">
+                                    Completed
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="view-btn">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>#CC1002</td>
+
+                            <td>Anita Patel</td>
+
+                            <td>Jackets</td>
+
+                            <td>3</td>
+
+                            <td>04 Sep 2026</td>
+
+                            <td>
+                                <span class="table-status approved">
+                                    Approved
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="view-btn">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>#CC1003</td>
+
+                            <td>Priya Singh</td>
+
+                            <td>Dresses</td>
+
+                            <td>4</td>
+
+                            <td>03 Sep 2026</td>
+
+                            <td>
+                                <span class="table-status pending">
+                                    Pending
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="view-btn">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+
+                        <tr>
+
+                            <td>#CC1004</td>
+
+                            <td>Arjun Kumar</td>
+
+                            <td>Pants</td>
+
+                            <td>6</td>
+
+                            <td>02 Sep 2026</td>
+
+                            <td>
+                                <span class="table-status pending">
+                                    Pending
+                                </span>
+                            </td>
+
+                            <td>
+                                <button class="view-btn">
+                                    View
+                                </button>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 ClothCare. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
