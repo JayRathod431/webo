@@ -1,0 +1,42 @@
+[
+  {
+    "id": "95ddbf26-e6e8-48ab-947c-4f2858af58e9",
+    "name": "ClothCare Admin",
+    "email": "admin@clothcare.org",
+    "password": "admin123",
+    "phone": "+1555000000",
+    "createdAt": "2026-09-09T10:43:43.677Z"
+  },
+  {
+    "id": "2c27ed98-4bb2-4f54-b30a-e32818393e3b",
+    "name": "Test User",
+    "email": "test@example.com",
+    "password": "secret123",
+    "phone": "+1234567890",
+    "createdAt": "2026-09-09T10:44:13.746Z"
+  },
+  {
+    "id": "03c4e466-6054-49b8-8b78-7905b4ecd933",
+    "name": "Test User",
+    "email": "test-1788950691760@example.com",
+    "password": "secret123",
+    "phone": "+1234567890",
+    "createdAt": "2026-09-09T10:44:51.779Z"
+  },
+  {
+    "id": "0ecb7d84-36aa-4ee2-b2db-504b8fada1a0",
+    "name": "Lumi-chan12",
+    "email": "santoshihajare20@gmail.com",
+    "password": "meowww",
+    "phone": "09561953132",
+    "createdAt": "2026-09-09T10:49:36.158Z"
+  },
+  {
+    "id": "cd229b12-aa45-435e-8919-b5c3d7d6515e",
+    "name": "Test User",
+    "email": "test-1788951474736@example.com",
+    "password": "secret123",
+    "phone": "+1234567890",
+    "createdAt": "2026-09-09T10:57:54.744Z"
+  }
+]

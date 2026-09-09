@@ -1,0 +1,9 @@
+{
+  "name": "clothcare",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "PORT=4321 node --test server.test.js"
+  }
+}
